@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "c-signup.css",
+	"sources": [
+		"../../scss/component/c-signup.scss"
+	],
+	"sourcesContent": [
+		".c-signup {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 20px;\r\n  margin-top: 10px;\r\n  span {\r\n    color: #0095f6;\r\n    cursor: pointer;\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;CAKjB;;;AAVD,AAME,SANO,CAMP,IAAI,CAAC;EACH,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;CAChB"
+}

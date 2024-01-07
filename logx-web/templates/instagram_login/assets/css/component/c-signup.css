@@ -1,0 +1,16 @@
+/* line 1, ../../Desktop/instagram-login-page/assets/scss/component/c-signup.scss */
+.c-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* line 7, ../../Desktop/instagram-login-page/assets/scss/component/c-signup.scss */
+.c-signup span {
+  color: #0095f6;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=c-signup.css.map */

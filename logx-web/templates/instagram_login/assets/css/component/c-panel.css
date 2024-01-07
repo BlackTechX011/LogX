@@ -1,0 +1,103 @@
+/* line 1, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px 0;
+}
+
+/* line 8, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__img {
+  height: 51px;
+  width: 175px;
+  margin-bottom: 30px;
+}
+
+/* line 13, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+}
+
+/* line 18, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form .c-btn {
+  margin-top: 14px;
+}
+
+/* line 21, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form .c-panel__input {
+  color: #262626;
+  background: #fafafa;
+  border: 1px solid lightgray;
+  padding: 9px 0 7px 8px;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* line 28, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form .c-panel__input:nth-child(1) {
+  margin-bottom: 6px;
+}
+
+/* line 32, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form .c-panel__span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8e8e8e;
+  margin: 16px 0 30px 0;
+  position: relative;
+}
+
+/* line 38, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form .c-panel__span::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  background: lightgray;
+  width: 40%;
+  height: 1.5px;
+  top: 8px;
+  right: 0;
+}
+
+/* line 49, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__form .c-panel__span::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  background: lightgray;
+  width: 40%;
+  height: 1.5px;
+  top: 8px;
+  left: 0px;
+}
+
+/* line 63, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__facebook {
+  color: #385185;
+}
+
+/* line 65, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__facebook::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/facebook.svg);
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* line 75, ../../Desktop/instagram-login-page/assets/scss/component/c-panel.scss */
+.c-panel .c-panel__forgot {
+  margin: 20px 0 20px;
+  font-size: 12px;
+  color: #0095f6;
+}
+
+/*# sourceMappingURL=c-panel.css.map */
