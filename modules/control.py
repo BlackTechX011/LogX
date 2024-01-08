@@ -2,7 +2,7 @@ from colorama import Fore,Back,Style
 import subprocess,json,time,hashlib
 
 def kill_php_proc():
-    with open("storm-web/Settings.json", "r") as jsonFile:
+    with open("web/Settings.json", "r") as jsonFile:
         data = json.load(jsonFile)
         pid = data["pid"]
 
@@ -15,7 +15,7 @@ def kill_php_proc():
         else:
             pid.clear()
             data["pid"] = []
-            with open("storm-web/Settings.json", "w") as jsonFile:
+            with open("web/Settings.json", "w") as jsonFile:
                 json.dump(data, jsonFile)
 
     except:
@@ -35,12 +35,12 @@ def run_php_server(port):
         proc_info = subprocess.Popen(("php","-S",f"localhost:{port}","-t","storm-web"),stderr=php_log,stdout=php_log).pid
 
 
-    with open("storm-web/Settings.json", "r") as jsonFile:
+    with open("web/Settings.json", "r") as jsonFile:
         data = json.load(jsonFile)
         data["pid"].append(proc_info)
 
 
-    with open("storm-web/Settings.json", "w") as jsonFile:
+    with open("web/Settings.json", "w") as jsonFile:
         json.dump(data, jsonFile)
 
 
