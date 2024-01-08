@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "c-phone.css",
+	"sources": [
+		"../../scss/component/c-phone.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

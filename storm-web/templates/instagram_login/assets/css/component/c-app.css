@@ -1,0 +1,25 @@
+/* line 2, ../../Desktop/instagram-login-page/assets/scss/component/c-app.scss */
+.c-app p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* line 6, ../../Desktop/instagram-login-page/assets/scss/component/c-app.scss */
+.c-app .c-app__download {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* line 10, ../../Desktop/instagram-login-page/assets/scss/component/c-app.scss */
+.c-app .c-app__download img {
+  width: 140px;
+  height: 40px;
+}
+
+/* line 13, ../../Desktop/instagram-login-page/assets/scss/component/c-app.scss */
+.c-app .c-app__download img:nth-child(2) {
+  margin-left: 8px;
+}
+
+/*# sourceMappingURL=c-app.css.map */
