@@ -11,12 +11,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     // Write the data to a file named "result.txt"
     file_put_contents("result.txt", $data);
 
-    // Redirect to a success page or perform other actions
-    header("Location: success.html");
-    exit();
-} else {
-    // Redirect to the login page if accessed directly without a POST request
-    header("Location: login.html");
-    exit();
-}
+} 
 ?>
