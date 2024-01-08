@@ -30,7 +30,7 @@ else {
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/css/light-theme.min.css" rel="stylesheet">
-    <title>Storm Breaker - V3</title>
+    <title>LogX - V1</title>
 
 </head>
 
