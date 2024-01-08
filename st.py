@@ -3,7 +3,6 @@ check.dependency()
 check.check_started()
 from colorama import Back,Fore,Style
 from modules import banner,control
-check.check_update()
 
 
 PORT = 2525 
