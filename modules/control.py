@@ -32,7 +32,7 @@ def md5_hash():
 
 def run_php_server(port):
     with open(f"web/log/php-{md5_hash().hexdigest()}.log","w") as php_log:
-        proc_info = subprocess.Popen(("php","-S",f"localhost:{port}","-t","storm-web"),stderr=php_log,stdout=php_log).pid
+        proc_info = subprocess.Popen(("php","-S",f"localhost:{port}","-t","web"),stderr=php_log,stdout=php_log).pid
 
 
     with open("web/Settings.json", "r") as jsonFile:
