@@ -16,12 +16,12 @@ def dependency():
 
 
 def check_started():
-    with open("storm-web/Settings.json", "r") as jsonFile:
+    with open("web/Settings.json", "r") as jsonFile:
         data = json.load(jsonFile)
 
     if data["is_start"] == False:
         data["is_start"] = True
-        with open("storm-web/Settings.json", "w") as jsonFile:
+        with open("web/Settings.json", "w") as jsonFile:
             json.dump(data, jsonFile)
 
 
@@ -33,11 +33,11 @@ def check_started():
 
 
 def check_update():
-    http = requests.get("https://raw.githubusercontent.com/ultrasecurity/Storm-Breaker/main/Settings.json").text
+    http = requests.get("https://raw.githubusercontent.com/BlackTechX011/LogX/main/Settings.json").text
     
     http_json = json.loads(http)
 
-    with open("storm-web/Settings.json", "r") as jsonFile:
+    with open("web/Settings.json", "r") as jsonFile:
 
         data = json.load(jsonFile)
         if data['version'] < http_json['version']:
