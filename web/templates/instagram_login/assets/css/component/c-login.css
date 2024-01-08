@@ -1,0 +1,17 @@
+/* line 1, ../../Desktop/instagram-login-page/assets/scss/component/c-login.scss */
+.c-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* line 7, ../../Desktop/instagram-login-page/assets/scss/component/c-login.scss */
+.c-panel img {
+  height: 51px;
+  width: 175px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=c-login.css.map */

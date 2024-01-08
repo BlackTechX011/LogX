@@ -1,0 +1,14 @@
+.l-user {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.group {
+  background: #fff;
+  border: 1px solid lightgrey;
+  @include xs {
+    background: inherit;
+    border: none;
+  }
+}

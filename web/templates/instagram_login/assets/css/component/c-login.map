@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "c-login.css",
+	"sources": [
+		"../../scss/component/c-login.scss"
+	],
+	"sourcesContent": [
+		".c-panel {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  padding: 40px;\r\n  img {\r\n    height: 51px;\r\n    width: 175px;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,IAAI;CAOd;;;AAZD,AAME,QANM,CAMN,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,IAAI;CACpB"
+}
