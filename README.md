@@ -1,5 +1,5 @@
 # LogX 
-LogX is a powerfull tool to create fake socil media login page.                          
+LogX is a powerfull tool to create fake social media login page.                          
 This tool is right now in devlopmet but now also u can use it.    
 
 
